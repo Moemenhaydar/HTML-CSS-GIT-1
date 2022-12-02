@@ -8,3 +8,12 @@
 .message__time{
     font-size: 0.9em;
 }
+.message--unread{
+    border-left: 1px blue solid;
+}
+.message:first-child{
+    opacity: 0.4;
+}
+.message > *{
+    line-height: 50px;
+}
